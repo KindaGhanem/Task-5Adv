@@ -9,7 +9,7 @@
 .phoneImage{
     width: 100%;
     max-width: 373px;
-    height: 375px;
+    height: 373px;
     object-fit: contain;
     border-radius: 16px;
     margin: 0 auto;
@@ -38,6 +38,15 @@
     flex-wrap: wrap;
 }
 
+@media(max-width:1370px){
+    .phoneImage{
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+    }
+    
+
+}
 
 @media(max-width:1300px){
     .infoshow p{
