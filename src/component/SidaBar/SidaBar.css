@@ -1,0 +1,60 @@
+.SideBar{
+    width: 100%;
+    max-width:270px;
+    height:100vh !important;
+    position: relative;
+    background: #F2EAE1;
+    padding: 35px 39px 31px 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* position: fixed; */
+}
+.SideBarLogo{
+    border-left: 4px solid #F8D442;
+    padding-left: 12.34px;
+}
+.SideBarProfile{
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 128px;
+}
+.name{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.72px;
+}
+
+.SideBar button{
+    width: 193px;
+    height: 41px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 31px;
+    border-radius: 4px;
+    transition: 0.5s;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.SideBar button:hover{
+    background-color: #FEAF00;
+
+}
+.SideBar .active{
+    background-color: #FEAF00;
+
+}
+.SideBar button img{
+    margin-right: 8px;
+}
+
+.LogOut img{
+    margin-left: 23px;
+}
+
+
+

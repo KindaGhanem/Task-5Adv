@@ -1,0 +1,77 @@
+.AddItem{
+    width: 100%;
+    height: 100vh;
+    padding: 24px 109px 168px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.FormAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.TopForm{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.FormAdd label{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39.01px;
+    color: #6C6C6C;
+    margin-bottom: 16px !important;
+}
+.FormLeft{
+    display: flex;
+    flex-direction: column;
+    width: 41.712%;
+}
+.FormLeft input{
+    width: 100% !important;
+    max-width: 415.87px !important;
+    border-radius: 4px;
+    height: 44px;
+    border: 1px solid #E5E5E5;
+    margin-bottom: 64px;
+}
+.FormAdd input::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    line-height: 14.63px;
+    text-indent: 10px;
+}
+.FormRight{
+    width: 54.86%;
+    display: flex;
+    flex-direction: column;
+}
+.FormRight .file-upload{
+    width: 100%;
+    max-width: 547px !important;
+    height: 209px;
+    border-radius: 4px;
+    border: 1px dashed #384EB74D;
+    background-color: #F8F8FF;
+    position: relative;
+}
+.imageupload{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 30%;
+    left:40%;
+}
+
+
+
+@media(max-width:1370px){
+    .AddItem{
+        padding: 24px 30px 40px 50px;
+    }
+}
+
+
+

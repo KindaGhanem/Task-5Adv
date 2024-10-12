@@ -1,0 +1,25 @@
+.controlImg{
+    width: 40px;
+}
+.TitleCommon{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 73.14px;
+    color: black;
+}
+
+
+
+
+@media(max-width:1300px){
+    .TitleCommon{
+        font-size: 40px;
+    }
+
+}
+
+@media(max-width:1024px){
+    .TitleCommon{
+        font-size: 30px;
+    }
+}

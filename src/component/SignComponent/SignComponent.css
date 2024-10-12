@@ -1,0 +1,137 @@
+.SignComp{
+    width: 100%;
+    background-color: #fff;
+    max-width: 476px !important;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px 0px #0000001A;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.title{ 
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    margin-top: 43px;
+    margin-bottom: 9px;
+}
+.desc{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 17.07px;
+    color: #6C6C6C;
+}
+.flex{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.passinput{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+
+}
+.passinput input{
+    width: 100%;
+}
+.form{
+    width: 100%;
+
+}
+.form input{
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5 ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form input::placeholder{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    opacity: 0.5;
+    text-indent: 15px;
+}
+
+.linkSign{
+    color: #FEAF00 !important;
+}
+
+.height{
+    /* height: 100%;
+    max-height: 710px; */
+    padding:42px 21px 20px 30px ;
+}
+.heightSignIn{
+    /* height: 100%;
+    max-height: 550px; */
+    padding: 42px 30px;
+
+}
+.height .form input{
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5 ;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.heightSignIn .par{
+    margin-bottom: 50px;
+
+}
+
+.height .par{
+    margin-bottom: 24px;
+
+}
+.none{
+    display: none;
+}
+
+.Bg-Uplad{
+    border-radius: 4px;
+    border: 1px dashed #384EB74D;
+    background-color: #F8F8FF;
+    width: 100px;
+    height: 100px; 
+    margin-top: 17px;
+    position: relative;
+    
+}
+.Bg-Uplad img{
+    position: absolute;
+    width: 40px;
+    top: 35%;
+    left: 30% ;
+} 
+.question{
+    margin-top: 10px;
+}
+
+
+@media(max-width:1370px){
+    .title{ 
+        margin-top: 10px;
+    }
+    .height .par{
+        margin-bottom: 10px;
+    
+    }
+    .height .form input{
+        height: 30px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    .Bg-Uplad{
+        width: 70px;
+        height: 70px; 
+        
+    }
+
+
+}
