@@ -43,7 +43,7 @@ export default function UpdateComponent({title ,label1 , label2 , label3 , uploa
 
     useEffect(() => {
         if(!localStorage.getItem("token")){
-            navigate("Sign In")
+            navigate("SignIn")
         }
         axios.get(`https://test1.focal-x.com/api/items/${param.id}` ,{
 

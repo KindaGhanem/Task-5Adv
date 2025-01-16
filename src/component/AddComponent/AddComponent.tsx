@@ -35,7 +35,7 @@ export default function AddComponent({title ,label1 , holdername , label2 , hold
 
   useEffect(() => {
     if(!localStorage.getItem("token")){
-      navigate("Sign In")
+      navigate("SignIn")
     }
   }, [])
 

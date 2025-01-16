@@ -31,7 +31,7 @@ export default function ShowComponent({ firsttitle , secondtitle , thirdtitle  }
 
     useEffect(() => {
         if(!localStorage.getItem("token")){
-            navigate("Sign In")
+            navigate("SignIn")
           }
         axios.get(`https://test1.focal-x.com/api/items/${param.id}` ,{
 
